@@ -1,0 +1,906 @@
+/* line 1, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/m_b.scss */
+body {
+  background-image: url("pozadina2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  padding: 0;
+  height: 100%;
+}
+/****************************************************************
+* Footer
+****************************************************************/
+/* line 5, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+#footer {
+  position: relative;
+  left: 0px;
+  bottom: 0px;
+  min-height: 80px;
+  width: 100%;
+  background: #ea2727;
+}
+
+/* line 14, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.colona-20 ul {
+  list-style-type: none;
+}
+
+/* line 18, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.colona-30 {
+  float: left;
+  min-width: 30%;
+  text-align: center;
+  font-family: Impact;
+  color: white;
+  font-style: italic;
+}
+
+/* line 28, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.colona-30 ul {
+  list-style-type: none;
+}
+
+/* line 32, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.odstojanje {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/****************************************************************
+* About
+****************************************************************/
+/* line 41, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.wrapper {
+  transition-duration: 0.5s;
+  transition-timing-function: swing;
+  /*background-color: rgba(255, 255, 255, 0.4);*/
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 100px 40px;
+}
+/* line 50, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.wrapper.open {
+  transform: translateX(250px) translateY(50px);
+  -webkit-transform: translateX(250px) translateY(50px);
+  box-shadow: 0 0 50px fade(black, 20%);
+}
+/* line 56, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.wrapper section {
+  max-width: 600px;
+  margin: 0 auto;
+}
+/* line 60, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.wrapper section h1 {
+  font-weight: 300;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+/* line 66, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.wrapper section h2 {
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+/* line 72, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.wrapper section p {
+  margin-bottom: 40px;
+}
+
+/***************
+
+.dn {
+	display: none;
+}
+a:link {
+	color: #61bb46;
+	text-decoration: none;
+}
+a:hover {
+	color: #61bb46;
+	text-decoration: none;
+}
+a:visited {
+	color: #61bb46;
+	text-decoration: none;
+}
+
+/* Computer */
+/* line 97, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.grid_1 {
+  width: 6.5%;
+}
+
+/* line 98, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.grid_2 {
+  width: 15%;
+}
+
+/* line 99, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.grid_3 {
+  width: 23.5%;
+}
+
+/* line 100, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.grid_4 {
+  width: 32%;
+}
+
+/* line 101, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.grid_5 {
+  width: 40.5%;
+}
+
+/* line 102, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.grid_6 {
+  width: 49%;
+}
+
+/* line 103, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.grid_7 {
+  width: 57.5%;
+}
+
+/* line 104, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.grid_8 {
+  width: 66%;
+}
+
+/* line 105, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.grid_9 {
+  width: 74.5%;
+}
+
+/* line 106, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.grid_10 {
+  width: 83%;
+}
+
+/* line 107, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.grid_11 {
+  width: 91.5%;
+}
+
+/* line 108, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.grid_12 {
+  width: 100%;
+}
+
+/* line 110, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+  margin: 0 2% 1% 0;
+  float: left;
+  display: block;
+}
+
+/* line 127, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.alpha {
+  margin-left: 0;
+}
+
+/* line 128, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.omega {
+  margin-right: 0;
+}
+
+/* line 130, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.container {
+  width: 90%;
+  /*width: 1000px;*/
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* line 139, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* line 139, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.clearfix:after {
+  clear: both;
+  content: ' ';
+  display: block;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* line 139, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+* html .clearfix, *:first-child + html .clearfix {
+  zoom: 1;
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+  /* line 147, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+  .grid_1,
+  .grid_2,
+  .grid_3,
+  .grid_4,
+  .grid_5,
+  .grid_6,
+  .grid_7,
+  .grid_8,
+  .grid_9,
+  .grid_10,
+  .grid_11,
+  .grid_12 {
+    width: 100%;
+  }
+}
+/* Slide 5 */
+/* line 165, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+#slide5 {
+  padding: 20px 0 100px 0;
+  /*background-color: #f7f5f2;*/
+}
+
+/* line 169, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.contactmap {
+  background: #ea2727;
+  border-radius: 50px;
+  font-family: Impact;
+  font-style: italic;
+}
+
+/* line 175, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+#slide5 h2 {
+  margin: 13px 0 0 30px;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+/* line 180, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+#slide5 p {
+  line-height: 150%;
+  color: #fff;
+  padding: 5px 0 0 30px;
+}
+
+/* line 185, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.contactype {
+  position: relative;
+  cursor: pointer;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: rgba(234, 39, 39, 0.31);
+  border-radius: 30px;
+  height: 100px;
+  float: left;
+  transition: all .2s ease-in;
+  font-family: Impact;
+  font-style: italic;
+  font-size: 1.5em;
+}
+
+/* line 200, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.contactype p {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 30.5px;
+  left: 0;
+  padding: 0 !important;
+}
+
+/* line 208, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.contactype:hover, .contactype.active {
+  background-color: #ea2727;
+}
+
+/* line 211, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.contactype div {
+  font-size: 4em;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  transition: all .2s ease-in;
+}
+
+/* line 219, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.contactmap .grid_8.omega .grid_6 {
+  margin: 40px 0 0 220px;
+}
+
+/* line 222, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.contactmap .grid_8.omega .grid_6 .btn {
+  margin-top: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-left: 0;
+}
+
+/* line 227, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.bus-point {
+  display: block;
+  margin-bottom: 3px;
+}
+
+/* line 231, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+#contact-bus .grid_6.omega,
+#contact-car .grid_6.omega {
+  height: 200px;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* line 237, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.contactmap .information span {
+  font-weight: bold;
+}
+
+/* line 240, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+#contact-phone .grid_6.omega {
+  font-size: 2.5em;
+  margin-top: 100px;
+}
+
+/* line 244, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+#contact-mail .grid_6.omega {
+  padding-top: 40px;
+}
+
+/* line 247, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.btn {
+  display: inline-block;
+  padding-left: 56px;
+  color: #626263;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 16px 24px 17px 24px;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  text-shadow: none;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 2.5em;
+}
+
+/* line 264, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.btn span {
+  font-size: 1em;
+}
+
+/* line 267, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+footer {
+  position: relative;
+  text-align: center;
+  display: block;
+}
+
+/* line 272, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+footer hr {
+  height: 0;
+  width: 100%;
+  display: block;
+  position: absolute;
+  background-color: #bbb;
+  top: 40%;
+  left: 0;
+  z-index: 1;
+}
+
+/* line 282, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.btn2 {
+  color: #626263;
+  background: #f7f5f2;
+  border: 1px solid #bbb;
+  box-shadow: 0 1px transparent;
+  padding: 14px 24px;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  border-radius: 20px;
+  display: inline-block;
+  line-height: 20px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+/* line 299, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.contactmap {
+  height: 300px;
+  margin-bottom: 10%;
+}
+
+/* line 303, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.contactmap .grid_8.omega {
+  background-color: #fff;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 311, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+#contact-car .grid_10.omega {
+  margin: 0 auto;
+  display: block;
+}
+
+/* line 315, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+#map_canvas {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* line 320, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.submit {
+  display: none;
+  margin: 0 auto;
+  width: auto;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  padding: 15px 21px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background: transparent;
+  border-radius: 9px;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: border-color .4s;
+}
+
+/* line 335, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.submit:hover {
+  color: #ea2727;
+  border-color: #ea2727;
+}
+
+/* line 339, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.callus {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 240px;
+  margin-left: -155px;
+  border-radius: 5px 5px 0 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #000;
+  line-height: 1.5em;
+  font-size: 1.5em;
+  z-index: 99;
+  padding: 10px 35px;
+  text-align: center;
+  animation-delay: 4s;
+}
+
+/* line 355, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.callus:hover {
+  background-color: #ea2727;
+}
+
+/* line 360, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+#contact-bikeClick.active div {
+  font-size: 10em;
+  color: #c3c3c3;
+  top: 125px;
+  left: -115px;
+  -webkit-perspective: 10em;
+  -moz-perspective: 10em;
+  -ms-perspective: 10em;
+  perspective: 10em;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+}
+
+/* line 372, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+#contact-busClick.active div {
+  font-size: 10em;
+  color: #c3c3c3;
+  top: 125px;
+  left: 25px;
+}
+
+/* line 378, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+#contact-carClick.active div {
+  font-size: 10em;
+  color: #c3c3c3;
+  top: 125px;
+  left: 200px;
+}
+
+/* line 384, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+#contact-bikeClick.active div {
+  left: -100px !important;
+}
+
+/* line 387, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+#contact-phoneClick.active div {
+  left: -300px !important;
+}
+
+/* line 390, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+#contact-mailClick.active div {
+  left: -440px !important;
+}
+
+/* line 393, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+#contact-mailClick.active div {
+  font-size: 10em;
+  color: #c3c3c3;
+  top: 145px;
+  left: -440px;
+}
+
+/* line 399, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+#contact-phoneClick.active div {
+  font-size: 10em;
+  color: #c3c3c3;
+  top: 145px;
+  left: -315px;
+}
+
+/* line 406, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/n_g_css.scss */
+.golux {
+  text-decoration: none;
+  color: white;
+  font-family: Impact;
+  font-style: italic;
+}
+
+/*.prevlaka {
+	
+	background-color: rgba(255, 255, 255, 0.22);
+
+
+}*/
+/* line 1, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/s_g_css.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 2, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/s_g_css.scss */
+.clr {
+  clear: both;
+}
+
+/* line 8, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/s_g_css.scss */
+#wrapp {
+  height: 460px;
+  width: 80%;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+/* line 15, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/s_g_css.scss */
+#border1 {
+  height: 211px;
+  width: 740px;
+  float: left;
+  margin-bottom: 20pxl;
+}
+
+/* line 23, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/s_g_css.scss */
+#border4 {
+  height: 211px;
+  width: 740px;
+  float: left;
+  margin-top: 30px;
+}
+
+/* line 32, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/s_g_css.scss */
+#border2 {
+  height: 211px;
+  width: 740px;
+  float: left;
+  margin-top: 30px;
+}
+
+/* line 41, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/s_g_css.scss */
+#border3 {
+  height: 211px;
+  width: 740px;
+  float: left;
+}
+
+/* line 49, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/s_g_css.scss */
+.thumb {
+  height: 210px;
+  width: 210px;
+  border: 3px solid #ea2727;
+  border-radius: 50px 50px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  float: left;
+  text-align: center;
+  color: white;
+  font-family: Impact;
+  font-style: italic;
+}
+
+/* line 63, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/s_g_css.scss */
+.thumb p {
+  font-size: 1.5em;
+  margin-top: 130px;
+}
+
+/* line 68, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/s_g_css.scss */
+.thumb p span {
+  font-size: 1.2em;
+}
+
+/* line 72, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/s_g_css.scss */
+.kais {
+  border-radius: 30px 30px;
+}
+
+/* line 76, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/s_g_css.scss */
+#slika1 {
+  background-image: url("/assets/velika-b237f7100aeb4b9b3190a64479d5d8a7210091b92c3a05a793edbe228cdcc363.jpg");
+  margin-bottom: 20px;
+}
+
+/* line 80, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/s_g_css.scss */
+#slika2 {
+  background-image: url("/assets/gurmanska-03a1764ccc72c87980c1bcf71387e976b11cd0ed39c9e0824b4dd832c2a28f62.jpg");
+  margin-bottom: 20px;
+}
+
+/* line 85, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/s_g_css.scss */
+#slika3 {
+  background-image: url("/assets/punjena-efb8592a3912c56a2a64f7b9be5aa2f4e4f6f5f254803a92112ed3102cdeb929.jpg");
+  margin-bottom: 20px;
+}
+
+/* line 90, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/s_g_css.scss */
+#slika4 {
+  background-image: url("/assets/slatke-palacinke-5410a27c3a09f8a960805e73459d961b2629dfa823f1408dda776aa5c411254f.jpg");
+  margin-left: 60px;
+}
+
+/* line 95, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/s_g_css.scss */
+#slika5 {
+  background-image: url("/assets/slane-1a5fdd47c0901210f7962e3a2293b9d3b7947c2b7674209974e04378b37947b9.jpg");
+}
+
+/* line 99, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/s_g_css.scss */
+#slika6 {
+  background-image: url("/assets/ultra-c5efc8c278fa7fe9df2ba0fd3db283ca58a00335a429755bf13295d05f42a162.jpg");
+}
+
+/* line 103, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/s_g_css.scss */
+#slika7 {
+  background-image: url("/assets/super-e8646a1ceef829014c654d5a74dba2ac61d858e7047ebafeb0162807504cd38a.jpg");
+}
+
+/* line 107, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/s_g_css.scss */
+#slika8 {
+  background-image: url("/assets/capricoza-e3edd8d3b1464446feca6827108be3abdacf7be521ef252e405844263156904a.jpg");
+}
+
+/* line 111, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/s_g_css.scss */
+#slika9 {
+  background-image: url("/assets/margarita-444092d1474121b2244de23d3867d10333aa6b8f2a0a3a041fcd77a802093d3c.jpg");
+}
+
+/* line 116, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/s_g_css.scss */
+#slika10 {
+  background-image: url("/assets/hotdog-339755c9020028991979ec121dfee53eaa009daa4a25888571f1c22daba3a5fc.jpg");
+  margin-left: 60px;
+}
+
+/* line 121, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/s_g_css.scss */
+#slika11 {
+  background-image: url("/assets/hotdog-339755c9020028991979ec121dfee53eaa009daa4a25888571f1c22daba3a5fc.jpg");
+}
+
+/* line 125, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/s_g_css.scss */
+#slika12 {
+  background-image: url("/assets/hotdog-339755c9020028991979ec121dfee53eaa009daa4a25888571f1c22daba3a5fc.jpg");
+}
+/* line 1, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/welcome.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*******************************
+* HEADER HOME
+*******************************/
+/* line 7, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/welcome.scss */
+#glava {
+  width: 90%;
+  height: 70px;
+  margin: 10px auto;
+  background-color: #ea2727;
+  border-radius: 50px 50px;
+}
+
+/*** moguci hover za head
+	#glava:hover {
+	background-color: rgba(255, 179, 128, 1);
+
+	} */
+/* line 21, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/welcome.scss */
+.colona-20 {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+/* line 27, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/welcome.scss */
+.colona-10 {
+  float: left;
+  width: 10%;
+  text-align: center;
+}
+
+/* line 33, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/welcome.scss */
+.colona-60 {
+  float: left;
+  width: 60%;
+  text-align: center;
+  padding-top: 6px;
+}
+
+/* line 40, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/welcome.scss */
+.colona-40 {
+  float: left;
+  width: 40%;
+  text-align: center;
+  padding-top: 6px;
+}
+
+/* line 47, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/welcome.scss */
+#naslov {
+  text-align: center;
+  padding-top: 8px;
+  font-family: Impact;
+  font-style: italic;
+  font-size: 300%;
+}
+
+/*******************************
+* NAV BAR
+*******************************/
+/* line 59, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/welcome.scss */
+#nav {
+  width: 70%;
+  height: 30px;
+  margin: 10px auto;
+  padding-bottom: 25px;
+}
+
+/* line 69, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/welcome.scss */
+#nav ul {
+  text-align: center;
+  list-style: none;
+}
+
+/* line 80, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/welcome.scss */
+#nav ul button {
+  float: left;
+  width: 25%;
+  padding: 1%;
+  background-color: #ea2727;
+  font-family: Impact;
+  font-style: italic;
+  font-size: 120%;
+  border-radius: 50px 0px;
+  border: none;
+}
+
+/* line 93, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/welcome.scss */
+#nav ul button:hover {
+  background-color: #ea2727;
+}
+
+/*******************************
+* YIELD
+*******************************/
+/* line 105, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/welcome.scss */
+.yield {
+  min-height: 800px;
+  position: relative;
+}
+
+/*******************************
+* FOOTER
+*******************************/
+/* line 119, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/welcome.scss */
+#footer {
+  width: 100%;
+  height: 70px;
+  background-color: #ea2727;
+}
+
+/* line 126, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/welcome.scss */
+#logo {
+  width: 70px;
+  height: 70px;
+}
+
+/*******************************
+* BUTTON STYLING
+*******************************/
+/* line 139, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/welcome.scss */
+.bez_link_dekoracija {
+  text-decoration: none;
+  color: white;
+}
+
+/* line 144, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/welcome.scss */
+button {
+  letter-spacing: 1px;
+}
+
+/* line 148, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/welcome.scss */
+button:hover,
+button:active {
+  letter-spacing: 10px;
+}
+
+/* line 153, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/welcome.scss */
+button:after,
+button:before {
+  backface-visibility: hidden;
+  border: 1px solid transparent;
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transition: all 280ms ease-in-out;
+  width: 0;
+}
+
+/* line 166, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/welcome.scss */
+button:hover:after,
+button:hover:before {
+  backface-visibility: hidden;
+  border-color: white;
+  transition: width 350ms ease-in-out;
+  width: 70%;
+}
+
+/* line 174, /home/golux/01_rails_apps/fast-food/app/assets/stylesheets/welcome.scss */
+button:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 70%;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+

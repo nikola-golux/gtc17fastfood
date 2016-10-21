@@ -1,0 +1,33 @@
+<div id="glava">
+	<div class="colona-10"><%= image_tag("hamburger-icon.png", id:"logo") %></div>
+	<div class="colona-10"><%= image_tag("palacinke.png", id:"logo") %></div>
+	<div class="colona-10"><%= image_tag("sendvic.png", id:"logo") %></div>
+	<div class="colona-40">
+	<span id="naslov">
+
+	<%= link_to "- FAST FOOD -",  root_path, :class=>"bez_link_dekoracija" %>
+
+	</span>
+	</div>
+
+	<div class="colona-10"><%= image_tag("pizza.png", id:"logo") %></div>
+	<div class="colona-10"><%= image_tag("dog.png", id:"logo") %></div>
+	<div class="colona-10"><%= image_tag("pomfrit.png", id:"logo") %></div>
+</div>
+
+<div id="nav">
+	<nav>
+		<ul>
+			<button><%= link_to "MENU",  welcome_menu_path, :class=>"bez_link_dekoracija" %></button>
+			
+			<button><%= link_to "GALLERY",  welcome_gallery_path, :class=>"bez_link_dekoracija" %></button>
+
+
+			<button><%= link_to "CONTACT",  welcome_contact_path, :class=>"bez_link_dekoracija" %></button>
+
+			<button><%= link_to "ABOUT",  welcome_about_path, :class=>"bez_link_dekoracija" %>
+				
+			</button>
+		</ul>
+	</nav>
+</div>

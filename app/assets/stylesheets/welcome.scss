@@ -1,0 +1,178 @@
+* {
+	margin: 0; padding: 0;
+}
+/*******************************
+* HEADER HOME
+*******************************/
+#glava {
+	width: 90%;
+	height: 70px;
+	margin: 10px auto;
+    background-color: rgb(234, 39, 39);
+	border-radius: 50px 50px;
+}
+
+/*** moguci hover za head
+	#glava:hover {
+	background-color: rgba(255, 179, 128, 1);
+
+	} */
+
+.colona-20 {
+	float:left;
+	width:20%;
+	text-align: center;
+}
+
+.colona-10 {
+	float:left;
+	width:10%;
+	text-align: center;
+}
+
+.colona-60 {
+	float:left;
+	width:60%;
+	text-align: center;
+	padding-top: 6px;
+}
+
+.colona-40 {
+	float:left;
+	width:40%;
+	text-align: center;
+	padding-top: 6px;
+  }
+
+#naslov {
+	text-align: center;
+	padding-top: 8px;
+	font-family: Impact;
+	font-style: italic;
+	font-size: 300%;
+}
+
+/*******************************
+* NAV BAR
+*******************************/
+
+#nav {
+
+	width: 70%;
+	height: 30px;
+	margin: 10px auto;
+	padding-bottom: 25px;
+	
+
+}
+
+#nav ul {
+
+	text-align: center;
+	list-style: none;
+
+	
+
+
+
+}
+
+#nav ul button {
+
+	float: left;
+	width: 25%;
+	padding: 1%;
+	background-color: rgb(234, 39, 39);
+	font-family: Impact;
+	font-style: italic;
+	font-size: 120%;
+	border-radius: 50px 0px;
+	border: none;	
+}
+
+#nav ul button:hover {
+
+ 
+	background-color: rgba(234, 39, 39, 1);
+
+
+}
+
+
+/*******************************
+* YIELD
+*******************************/
+.yield{
+
+	min-height: 800px;
+	position: relative;
+
+
+
+}
+
+
+/*******************************
+* FOOTER
+*******************************/
+
+#footer {
+
+	width: 100%;
+	height: 70px;
+    background-color: rgb(234, 39, 39);
+}
+
+#logo	{
+	
+	width: 70px;
+	height: 70px;
+	
+
+
+}
+
+/*******************************
+* BUTTON STYLING
+*******************************/
+
+.bez_link_dekoracija {
+	text-decoration: none;
+	color: white;
+}
+
+button {
+    letter-spacing: 1px;
+}
+
+button:hover,
+button:active {
+  letter-spacing: 10px;
+}
+
+button:after,
+button:before {
+  backface-visibility: hidden;
+  border: 1px solid rgba(#000000, 0);
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transition: all 280ms ease-in-out;
+  width: 0;
+}
+
+button:hover:after,
+button:hover:before {
+  backface-visibility: hidden;
+  border-color: white;
+  transition: width 350ms ease-in-out;
+  width: 70%;
+}
+
+button:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 70%;
+}
